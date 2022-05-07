@@ -1,0 +1,30 @@
+.movieImage {
+    width: 200px;
+    height: 300px;
+
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    max-width: 300px;
+    padding: 1rem;
+    color: White;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+.moviename {
+    justify-self: center;
+    font-size: 0.9rem;
+    max-width: 200px;
+    margin: 2px;
+}
+
+.dummymovieImage {
+    width: 200px;
+    height: 300px;
+}

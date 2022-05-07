@@ -1,0 +1,9 @@
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.movierow {
+    margin-left: 50px;
+}

@@ -1,0 +1,16 @@
+.castImage {
+    width: max-content;
+    height: 250px;
+    object-fit: contain;
+}
+
+.castdiv {
+    box-sizing: border-box;
+    font-size: small;
+}
+
+.dummycastImage {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+}

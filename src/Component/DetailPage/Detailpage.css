@@ -1,0 +1,120 @@
+.main {
+    color: white;
+}
+
+.maincontainer {
+    margin: 20px;
+    margin-right: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 375px;
+    background-color: rgb(28, 25, 25);
+}
+
+
+.leftcontainer {
+    border-radius: 10px;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+
+}
+
+.rightcontainer {
+    background-color: rebeccapurple;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+}
+
+.detailImg {
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.Overview {
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+.rightup {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.9em
+}
+
+.leftup {
+    display: flex;
+}
+
+.rightup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .leftcontainer {
+        width: 90%;
+        flex-direction: column;
+
+    }
+
+    .rightcontainer {
+        width: 100%;
+    }
+
+    .Overview {
+        margin: 5px;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .detailposterimg {
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+
+    }
+}
+
+.rightcontainer {
+    width: 50%;
+
+}
+
+.detailposterimg {
+    width: 100%;
+    height: 375px;
+    overflow: hidden;
+
+}
+
+.castcontainer {
+    margin-left: 10px;
+}
+
+.movietype {
+    font-size: 0.8rem;
+    color: darkmagenta;
+}
+
+.ReleaseDate {
+    font-size: 0.8rem;
+}

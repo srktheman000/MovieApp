@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(65, 50, 50);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.logo {
+    color: white;
+    height: 100%;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 100px;
+    flex-grow: 1;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    flex-grow: 1.5;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+Link {
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.linkName {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(185, 183, 183);
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchInput {
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    outline: none;
+
+}
+
+.searchButton {
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: grey;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+/* .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+} */
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .pages {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pages .links {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .pages .links .linkName {
+        text-align: center;
+        padding: .5rem 1rem;
+    }
+
+    .pages .active {
+        display: flex;
+    }
+}
